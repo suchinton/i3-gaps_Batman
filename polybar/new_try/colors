@@ -1,0 +1,10 @@
+[colors]
+;background = ${xrdb:color0:#222}
+background = #282828
+background-alt = #d79921
+;foreground = ${xrdb:color7:#222}
+foreground = #ebdbb2
+foreground-alt = #b16286
+primary = #504945
+secondary = #a89984
+alert = #cc241d
