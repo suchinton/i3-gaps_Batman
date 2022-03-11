@@ -26,11 +26,12 @@ foreground-alt = #b16286
 primary = #D71C2B
 secondary = #E5751C
 alert = #A62279
+transparent = #00000000
 
 [bar/drop]
 
 monitor-strict = false
-width = 20
+width = 1
 height = 25
 
 offset-x = 0 ######### offset values only dtermine the position of bar in the screen set it accordingly to your need
@@ -39,7 +40,7 @@ offset-y = 0
 override-redirect = true  ############### to make offset vales to work override-direct value must be true
 
 fixed-center = true
-background = ${colors.background}
+background = ${colors.transparent}
 foreground = ${colors.foreground}
 radius = 8
 line-size = 0
@@ -56,7 +57,7 @@ modules-left =  sep
 
 tray-position = right
 tray-detached = true
-tray-offset-x = 1250
+tray-offset-x = 1300
 #tray-offset-x = 1850
 tray-offset-y = 30
 tray-padding = 10
@@ -78,7 +79,7 @@ fixed-center = true
 background = ${colors.background}
 foreground = ${colors.foreground}
 
-line-size = 0
+line-size = 
 line-color = #f00
 
 border-size = 2
